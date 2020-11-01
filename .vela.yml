@@ -1,0 +1,7 @@
+version: "3"
+steps:
+  - name: echo
+    image: golang
+    commands:
+      - echo "hello!"
+
